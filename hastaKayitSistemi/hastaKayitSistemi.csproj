@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5A7776C-4A04-4F36-BA3D-5A1CED757638}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>hastaKayitSistemi</RootNamespace>
+    <AssemblyName>hastaKayitSistemi</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bashekimPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bashekimPanel.Designer.cs">
+      <DependentUpon>bashekimPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bolumBaskaniPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bolumBaskaniPanel.Designer.cs">
+      <DependentUpon>bolumBaskaniPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doktorlar.cs" />
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doktorGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doktorGiris.Designer.cs">
+      <DependentUpon>doktorGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doktorPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doktorPanel.Designer.cs">
+      <DependentUpon>doktorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastaGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hastaGiris.Designer.cs">
+      <DependentUpon>hastaGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastaKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hastaKayit.Designer.cs">
+      <DependentUpon>hastaKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastaKayitDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastaKayitDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastalar.cs" />
+    <Compile Include="hastalarDAO.cs" />
+    <Compile Include="hastaPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hastaPanel.Designer.cs">
+      <DependentUpon>hastaPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastaRaporu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hastaRaporu.Designer.cs">
+      <DependentUpon>hastaRaporu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="randevular.cs" />
+    <Compile Include="randevularDAO.cs" />
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bashekimPanel.resx">
+      <DependentUpon>bashekimPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bolumBaskaniPanel.resx">
+      <DependentUpon>bolumBaskaniPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doktorGiris.resx">
+      <DependentUpon>doktorGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doktorPanel.resx">
+      <DependentUpon>doktorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hastaGiris.resx">
+      <DependentUpon>hastaGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hastaKayit.resx">
+      <DependentUpon>hastaKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hastaPanel.resx">
+      <DependentUpon>hastaPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hastaRaporu.resx">
+      <DependentUpon>hastaRaporu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="hastaKayitDataSet.xsc">
+      <DependentUpon>hastaKayitDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hastaKayitDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastaKayitDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastaKayitDataSet.xss">
+      <DependentUpon>hastaKayitDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

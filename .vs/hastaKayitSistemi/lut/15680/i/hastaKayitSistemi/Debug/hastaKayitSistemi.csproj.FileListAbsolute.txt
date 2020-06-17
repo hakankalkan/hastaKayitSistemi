@@ -1,0 +1,17 @@
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\b\hastaKayitSistemi.exe.config
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\b\hastaKayitSistemi.exe
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.csprojAssemblyReference.cache
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.AnaSayfa.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.bashekimPanel.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.bolumBaskaniPanel.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.doktorGiris.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.doktorPanel.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.hastaGiris.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.hastaKayit.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.hastaPanel.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.hastaRaporu.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.Properties.Resources.resources
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.csproj.GenerateResource.cache
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.csproj.CoreCompileInputs.cache
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.csproj.CopyComplete
+C:\Users\hakan\source\repos\hastaKayitSistemi\.vs\hastaKayitSistemi\lut\0\i\hastaKayitSistemi\Debug\hastaKayitSistemi.exe
